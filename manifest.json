@@ -1,0 +1,39 @@
+{
+  "version": "0.0.1",
+  "name": "Monitor",
+  "description": "Monitor Koding Activity",
+  "homepage": "https://github.com/leeolayvar/monitor.kdapp",
+  "repository": "git://github.com/leeolayvar/monitor.kdapp.git",
+  "author": "Lee Olayvar",
+  "authorNick": "leeolayvar",
+  "category": "social",
+  "path": "~/Applications/monitor.kdapp",
+  "devMode": true,
+  "experimental": true,
+  "multiple": false,
+  "behavior": "application",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./main.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "menu": [],
+  "plus": {
+    "devPackageManagers": {
+      "node": false
+    },
+    "commonjs": true,
+    "coffee": true,
+    "files": {}
+  }
+}
